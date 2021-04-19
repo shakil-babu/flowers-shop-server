@@ -1,0 +1,17 @@
+{
+  "name": "flowers-vision-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shakil-Babu",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "nodemon": "^2.0.7"
+  }
+}
